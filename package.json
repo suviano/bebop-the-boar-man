@@ -1,5 +1,5 @@
 {
-  "name": "starter-slapp-app",
+  "name": "bebop",
   "version": "1.0.0",
   "description": "Basic Slack app using the Slapp library and Slack Events API",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BeepBoopHQ/starter-slapp-app#readme",
   "dependencies": {
+    "beepboop-slapp-presence-polyfill": "^1.1.1",
     "express": "^4.14.0",
     "nodemon": "^1.11.0",
     "slapp": "^1.2.0",

@@ -25,6 +25,8 @@ I will respond to the following messages:
 \`attachment\` - to see a Slack attachment message.
 `
 
+require('beepboop-slapp-presence-polyfill')(slapp)
+
 //*********************************************
 // Setup different handlers for messages
 //*********************************************
